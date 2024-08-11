@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+}
+em {
+    color: green;
+}
+b {
+    color: red;
+}
+.hiper {
+    color: blue;
+}
+.diray {
+    
+    border: 2px solid red;
+    width: 148px;
+    height: 21wpx;
+}
+button {
+    color: green;
+    border: 2px solid green; 
+    width: 190px;
+    height: 50px;
+}
+.number {
+    color: red;
+}
+html {
+    border: 3px solid green;
+    height: 570px;
+    width: 300px;
+}

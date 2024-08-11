@@ -1,0 +1,157 @@
+.capitan {
+    display: flex;
+    align-items: center;
+}
+.cop {
+    flex: 1;
+    border: 1px solid black;
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    height: 130px;
+    font-size: 20px;
+}
+.text {
+    text-align: left;
+    margin-top: 30px; 
+}
+.text1 {
+    text-align: center;
+    margin-top: 30px;
+}
+.text2 {
+    text-align: right;
+    margin-top: 30px;
+}
+@media (max-width: 480px) {
+    .capitan {
+        flex-direction: column;
+    }
+    .cop {
+        width: 120px;
+        height: 150px;
+    }
+    .text {
+        text-align: left;
+        padding: 20px 0;
+    }
+    .text1 {
+        text-align: left;
+        padding: 20px 0;
+    }
+    .text2 {
+        text-align: left;
+        padding: 20px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Robota', sans-serif;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Regular';
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+.desktop {
+    display: grid;
+    place-items: center;
+    height: 700px;
+    font-size: 36px;
+    background-color: black;
+    color: white;
+}
+@media (max-width: 768px) {
+    .desktop {
+        display: flex;
+        background-color: white;
+        color: black;
+        font-size: 16px;
+        justify-content: center;
+        font-family: 'Regular';
+        font-weight: 768;
+    }
+}
+
+
+
+
+
+
+
+.BlockB {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+}
+.server1 { 
+    .lan1 {
+        display: flex;
+        justify-content: center;
+        color: rgb(39, 8, 8);
+    }
+    .lan2 {
+        display: flex;
+        justify-content: center;
+        margin-top: -14px;
+        color: dimgrey;
+    }
+}
+.server2 {
+    flex-direction: column;
+    .lan6 {
+        color: dimgrey;
+    }
+}
+.server3 {
+    flex-direction: column;
+    padding-right: 40px;
+    padding-left: 40px;
+    .lan7 {
+        color: dimgrey;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+.server4 {
+    flex-direction: column;
+    .lan8 {
+        color: dimgrey;
+    }
+}
+.lan6 , .lan7 , .lan8 {
+    margin-left: -90px;
+}
+.photo1 {
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+@media (max-width: 480px) {
+    .BlockB {
+        flex-direction: column;
+    }
+    .server1 {
+        margin-bottom: 50px;
+    }
+    .server2 {
+        margin-left: 130px;
+    }
+    .server3 {
+        margin-left: 90px;
+        
+    }
+    .server4 {
+        margin-left: 130px;
+    }
+}

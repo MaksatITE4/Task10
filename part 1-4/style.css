@@ -1,0 +1,36 @@
+h2 {
+color: red;
+text-decoration: underline; 
+text-decoration-color: blue;
+font-size: 30px;
+}
+.ven1 {
+    color: goldenrod;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    font-size: 40px;
+}
+.ven2 {
+    color: purple;
+    text-decoration: overline;
+    text-decoration-color: crimson;
+    font-size: 35px;
+}
+.ven3 {
+    color: navy;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-size: 38px;
+}
+.ven4 {
+    color:darkcyan;
+    text-decoration: solid;
+    text-decoration-color: olivedrab;
+    font-size: 34px;
+}
+.ven5 {
+    color: darkkhaki;
+    text-decoration: underline;
+    text-decoration-color: blanchedalmond;
+    font-size: 30px;
+}

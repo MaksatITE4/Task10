@@ -1,0 +1,136 @@
+.levelA {
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    background-color: aqua;
+    position: relative;
+    
+}
+.partA {
+    display: flex;
+    flex: 1;
+    bottom: 2px;
+    right: 2%;
+    position: absolute;
+}
+
+
+
+
+
+.levelB {
+    border: 1px solid black;
+    width: 180px;
+    height: 180px;
+    background-color: aqua;
+    position: relative;
+}
+.partB {
+    width: 60px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: red;
+    position: absolute;
+    right: 1px;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+.text{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+
+
+.levelC {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+.partC1 {
+    width: 65px;
+    height: 55px;
+    border: 1px solid black;
+    background-color: red;
+    top: 100px;
+    position: absolute;
+   
+}
+.partC2 {
+    width: 65px;
+    height: 55px;
+    border: 1px solid black;
+    background-color: red;
+    position: absolute;
+    right: 90px;
+    bottom: 93px;
+    display: flex;
+}
+.textC {
+    display: flex;
+    margin-top: 35px;
+}
+.partC3 {
+    width: 65px;
+    height: 55px;
+    border: 1px solid black;
+    background-color: red;
+    position: absolute;
+    right: 1px;
+    bottom: 93px;
+    display: flex;
+    flex: 1;   
+    justify-content: right;
+}
+.levelD {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    border: 1px solid black;
+    position: relative;
+    flex-direction: column;
+   
+}
+.partD1 {
+    border: 1px solid black;
+    width: 65px;
+    height: 55px;
+    background-color: red;
+    position: absolute;
+    right: 90px;
+    display: flex;
+    justify-content: right;
+}
+.partD2 {
+    border: 1px solid black;
+    width: 65px;
+    height: 55px;
+    background-color: red;
+    position: absolute;
+    right: 90px;
+    bottom: 93px;
+}
+.textD1 {
+    display: flex;
+    margin-top: 35px;
+}
+.partD3 {
+    border:  1px solid black;
+    width: 65px;
+    height: 55px;
+    background-color:  red;
+    position: absolute;
+    right: 90px;
+    bottom: 0px;
+    display: flex;
+    justify-content: right;
+}
+.textD2 {
+    display: flex;
+    margin-top: 35px;
+}
